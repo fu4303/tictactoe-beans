@@ -1,10 +1,10 @@
-# To Do List
+# Tic Tac Toebeans
 
-This application was made for a coding challenge to create a ToDoList.
+This application was made for a coding challenge to create a Tic Tac Toe game. A great exercise in creating objects, embedded objects, and object constructors. Styled so that there are visual cues for what has been selected and when the game is over.
 
 ## Current Hosting
 
-To see deployed site, visit [The Application here](https://jpmbvistro-to-do.netlify.app/)
+To see deployed site, visit [The Application here](https://jpmbvistro-tictactoebeans.netlify.app/)
 See my other deployed projects there as well!
 
 ## Work With Me
