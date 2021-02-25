@@ -264,10 +264,21 @@ body {
   margin-bottom: 1rem;
 }
 
+.game-options{
+  margin-bottom: 2rem;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.game-options li + li {
+  margin-left: 2rem;
+}
+
 .main {
   background-color: rgba(255,255,255,.3);
   padding: 3rem;
   border-radius: 1rem;
+  position: relative;
 }
 
 .row {
@@ -282,29 +293,75 @@ body {
 .square {
   height: 10rem;
   width: 10rem;
-  background-color: rgb(255, 230, 234);
-  position: relative;
   font-size: 5rem;
   line-height: 10rem;
+  padding: 3rem;
+  align-items: center;
+}
+
+.primary-button {
+  background-color: rgb(255, 230, 234);
+  position: relative;
+
   text-align: center;
   user-select: none;
   cursor: pointer;
   border: none;
   border-radius: 5%;
-  box-shadow: 0 1rem 0 0rem rgb(255, 184, 196), .25rem 1.5rem 5px 0px grey;
+  box-shadow: 0 1rem 0 0rem rgb(255, 184, 196), 0rem 1.5rem 10px 0px grey;
 }
 
-.square + .square {
+.primary-button + .primary-button {
   margin-left: 1.5rem;
 }
 
-.square,
-.square:active {
+.primary-button,
+.primary-button:active {
   outline: none;
 }
 
-.square:active,
-.square:disabled {
-  box-shadow: 0rem .25rem 2px 0px grey;
+.primary-button:active,
+.primary-button:disabled {
+  box-shadow: 0rem 0rem 2px 0px grey;
   top:1rem;
+}
+
+.primary-button:active {
+  box-shadow: inset 0 0 5px 1px;
+}
+
+.primary-button.secondary-button {
+  border-radius: 1rem;
+  box-shadow: 0 .25rem 0 0rem rgb(255, 184, 196), 0rem .37rem 3px 0px grey;
+  padding: .5rem .75rem;
+  font-weight: 700;
+  color: grey;
+}
+
+.secondary-button + .secondary-button {
+  margin-left: .5rem;
+}
+
+.primary-button.secondary-button:active {
+  top: .37rem;
+  box-shadow: inset 0 0 3px 2px ;
+}
+
+.secondary-button.selected {
+  top: .37rem;
+  box-shadow: 0 0 1px 0 grey;
+}
+
+.primary-button.reset {
+  background-color: rgb(255, 105, 105);
+  color: rgba(250,250,250,1);
+}
+
+.primary-button.reset:active {
+  box-shadow: inset 0 0 3px 2px grey;
+}
+
+.tile-img {
+  width: 100%;
+
 }
