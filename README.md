@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Tic Tac Toebeans
 
 This application was made for a coding challenge to create a Tic Tac Toe game. A great exercise in creating objects, embedded objects, and object constructors. Styled so that there are visual cues for what has been selected and when the game is over.
@@ -17,3 +18,6 @@ If you would like to work with me, feel free to contact me through [my website](
 
 ### Contributions
 At this moment, I am currently not accepting contributions for this project.
+=======
+# tic-tac-toe-project
+>>>>>>> 43d4380 (Initial commit)
